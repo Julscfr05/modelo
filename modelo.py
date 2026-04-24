@@ -24,7 +24,7 @@ COLUMNAS = [
 st.title("Predicción de valor de viviendas")
 
 # 📂 Leer CSV desde el repositorio
-DATASET_PATH = "modelo/Dataset_viviendas.csv"
+DATASET_PATH = "Dataset_viviendas.csv"
 data = pd.read_csv(DATASET_PATH)
 
 st.success("Dataset cargado desde el repositorio")
